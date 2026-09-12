@@ -490,7 +490,7 @@ const ADG = {
     recurring: ""    // e.g. GHL subscription payment link for monthly lawn plan
   },
   // Optional: where the fallback form posts if GHL form isn't set (Formspree, GHL webhook, etc.)
-  FALLBACK_FORM_ENDPOINT: ""
+  FALLBACK_FORM_ENDPOINT: "https://services.leadconnectorhq.com/hooks/f2LEZaqBQn15xe3ODXJR/webhook-trigger/gTrHxpPqnd4wLMJkGQsb"
 };
 
 document.getElementById('yr').textContent = new Date().getFullYear();
@@ -514,7 +514,7 @@ if(ADG.GHL_FORM_EMBED_URL){
 async function handleFallback(e){
   e.preventDefault();
   const form = e.target, btn = form.querySelector('button');
-  const data = Object.fromEntries(new FormData(form).entries());
+  const data = Object.fromEntries(new FormData(form).entries()); data.source = 'Website';
   if(ADG.FALLBACK_FORM_ENDPOINT){
     btn.disabled = true; btn.textContent = 'Sending…';
     try{
