@@ -74,7 +74,7 @@
     <div class="hero-copy">
       <h1>Central Florida's One-Stop <b>Lawn Care &amp; Landscaping</b> for Homes &amp; Businesses</h1>
       <p class="tag">Lawn care, cleanups and landscaping. Reliable crews, clear prices.</p>
-      <div style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn btn-white" href="#quote">Get my free quote</a><a class="btn btn-lime" href="#book" data-book-link="home">Book a site visit</a></div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn btn-white" href="#quote">Get my free quote</a><a class="btn btn-lime" href="#book" data-book-link="home">Book a free consultation</a></div>
       <div class="badges">
         <div class="badge"><i><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#78b52b" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg></i><div><b>Free quotes</b>No obligation</div></div>
         <div class="badge"><i><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#78b52b" stroke-width="2.2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></i><div><b>Homes &amp; businesses</b>Residential, commercial, HOA</div></div>
@@ -232,13 +232,13 @@
   <div class="wrap center">
     <span class="eyebrow reveal">Book online</span>
     <h2 class="reveal">Pick a time that <b>works for you</b></h2>
-    <p class="reveal" style="color:var(--body);margin-top:12px">Choose a free on-site visit for your home, or a consultation for your property or business.</p>
+    <p class="reveal" style="color:var(--body);margin-top:12px">Book a free consultation call for your home, or for your property or business. Calls are 8–11 AM.</p>
     <div class="book-tabs" role="tablist">
       <button class="on" role="tab" data-book="home">Home / residential</button>
       <button role="tab" data-book="commercial">Commercial / HOA</button>
     </div>
     <div class="book-card" style="text-align:left">
-      <div class="meta"><div><b id="book-title">Free site visit · 30 min</b><br><span id="book-sub">We walk your property and send a written quote within 24 hours.</span></div><a class="alt" id="book-open" href="#" target="_blank" rel="noopener">Open in a new tab ↗</a></div>
+      <div class="meta"><div><b id="book-title">Home consultation · 15 min</b><br><span id="book-sub">A quick call about your yard and what you need. Calls 8–11 AM.</span></div><a class="alt" id="book-open" href="#" target="_blank" rel="noopener">Open in a new tab ↗</a></div>
       <iframe id="book-frame" title="Book a time with ADG Landscaping" loading="lazy"></iframe>
     </div>
   </div>
@@ -354,8 +354,8 @@ const ADG = {
   // Where both forms post (GHL inbound webhook → "Website Lead Instant Response" workflow)
   // GHL booking calendars (Settings > Calendars)
   BOOKING: {
-    home:       { url: "https://api.leadconnectorhq.com/widget/booking/GahmOIcBkYr3TCYFqPrr", title: "Free site visit · 30 min", sub: "We walk your property and send a written quote within 24 hours." },
-    commercial: { url: "https://api.leadconnectorhq.com/widget/booking/mFxWUsD9LI5l9yRflmoO", title: "Commercial consultation · 45 min", sub: "Apartments, HOAs and businesses. Weekdays 8am–5pm." }
+    home:       { url: "https://api.leadconnectorhq.com/widget/booking/GahmOIcBkYr3TCYFqPrr", title: "Home consultation · 15 min", sub: "A quick call about your yard and what you need. Calls 8–11 AM." },
+    commercial: { url: "https://api.leadconnectorhq.com/widget/booking/mFxWUsD9LI5l9yRflmoO", title: "Commercial consultation · 45 min", sub: "Apartments, HOAs and businesses. Calls 8–11 AM." }
   },
   FALLBACK_FORM_ENDPOINT: "https://services.leadconnectorhq.com/hooks/f2LEZaqBQn15xe3ODXJR/webhook-trigger/gTrHxpPqnd4wLMJkGQsb"
 };

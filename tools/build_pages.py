@@ -30,7 +30,7 @@ PAGES = [
   lede="Mowing, edging, cleanups, mulch and landscaping for Orlando homes, rentals and businesses, with a crew that shows up when it says it will.",
   intro=[
    "Orlando yards work hard. Between the summer rainy season, sandy soil and grass that seems to double overnight from June through September, a lawn that looked sharp last week can look overgrown by the weekend. ADG Landscaping keeps Orlando properties on a regular schedule so you don't have to think about it.",
-   "We take care of homes across Orlando and Orange County, plus rentals, HOAs and commercial properties. Every job starts with a free quote, and you can book a site visit online in under a minute.",
+   "We take care of homes across Orlando and Orange County, plus rentals, HOAs and commercial properties. Every job starts with a free quote, and you can book a free consultation call online in under a minute.",
   ],
   services=["Lawn mowing, edging, trimming and blowing","Seasonal and one-time yard cleanups","Fresh mulch, rock and clean bed edges","Hedge trimming and palm trimming","Florida-friendly plants and sod","Grounds maintenance for apartments, HOAs and businesses"],
   local_h="Orlando lawns, Orlando problems",
@@ -42,7 +42,7 @@ PAGES = [
   faq=[
    ("How much does lawn care cost in Orlando?","It depends on your lot size and what you need. Send your address through the quote form and we'll reply with a clear price, usually within 24 hours."),
    ("Do you work in my Orlando neighborhood?","We serve Orlando and the surrounding Orange County area. If you're not sure, send your address and we'll confirm."),
-   ("Can I book a visit online?","Yes. Use the booking button on this page to pick a time for a free on-site visit."),
+   ("Can I book a consultation online?","Yes. Use the booking button on this page to pick a time for a free consultation call, between 8 and 11 AM."),
    ("¿Hablan español?","¡Sí! Puede llamarnos o escribirnos en español o inglés."),
   ]),
  dict(slug="landscaping-kissimmee", city="Kissimmee", county="Osceola County",
@@ -169,7 +169,7 @@ def page(p):
     url = f"{SITE}/{p['slug']}/"
     place = p["city"] or "Central Florida"
     book = BOOK_COMM if commercial else BOOK_HOME
-    book_label = "Book a consultation" if commercial else "Book a free site visit"
+    book_label = "Book a consultation" if commercial else "Book a free consultation"
     ptype_default = "Apartment complex" if commercial else "Home"
     ptype_opts = "".join(f'<option{" selected" if o==ptype_default else ""}>{o}</option>' for o in ["Home","Apartment complex","HOA / community","Office / retail / business","Other commercial"])
     intro = "".join(f"<p>{e(t)}</p>" for t in p["intro"])
@@ -261,7 +261,7 @@ def page(p):
   <div class="wrap two" style="margin-top:0">
     <div class="panel" id="book">
       <h3>{book_label}</h3>
-      <p class="sub">{"45-minute consultation, weekdays 8am–5pm." if commercial else "30-minute visit. We walk the property and send a written quote."}</p>
+      <p class="sub">{"45-minute consultation call, 8–11 AM." if commercial else "15-minute call about your yard and what you need, 8–11 AM."}</p>
       <a class="btn btn-lime" style="width:100%" href="{book}" target="_blank" rel="noopener">Pick a time →</a>
       <div class="contact-list">
         <a href="tel:{PHONE_TEL}"><i>📞</i>{PHONE_DISPLAY}</a>
