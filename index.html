@@ -1,455 +1,498 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ADG Landscaping | Lawn Care & Landscaping in Orlando, Central Florida</title>
-<meta name="description" content="ADG Landscaping provides reliable lawn care, landscape design, irrigation, and hardscaping across Orlando and Central Florida. Free quotes, on-time crews, easy online payments.">
-<meta property="og:title" content="ADG Landscaping | Orlando & Central Florida">
-<meta property="og:description" content="Reliable lawn care, landscape design, irrigation and hardscaping in Orlando and Central Florida.">
+<title>ADG Landscaping | Lawn Care &amp; Landscaping in Orlando, Kissimmee, Davenport &amp; Haines City</title>
+<meta name="description" content="ADG Landscaping: weekly and bi-weekly lawn care, landscaping, cleanups and more across Orlando, Kissimmee, Davenport and Haines City. Free quotes, easy online payments. Se habla español.">
+<meta property="og:title" content="ADG Landscaping | Central Florida Lawn Care &amp; Landscaping">
+<meta property="og:description" content="Weekly and bi-weekly lawn care and landscaping across Orlando, Kissimmee, Davenport and Haines City. Free quotes.">
 <meta property="og:type" content="website">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f5c3a'/%3E%3Cpath d='M32 50c0-14 6-24 18-30-2 14-8 24-18 30zM32 50c0-14-6-24-18-30 2 14 8 24 18 30z' fill='%23a8e063'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LandscapingBusiness",
   "name": "ADG Landscaping",
-  "description": "Lawn care, landscape design, irrigation and hardscaping in Orlando and Central Florida.",
-  "areaServed": ["Orlando, FL", "Winter Park, FL", "Kissimmee, FL", "Lake Nona, FL", "Windermere, FL", "Dr. Phillips, FL", "Sanford, FL", "Oviedo, FL", "Apopka, FL", "Winter Garden, FL", "Clermont, FL", "Altamonte Springs, FL"],
-  "address": {"@type": "PostalAddress", "addressLocality": "Orlando", "addressRegion": "FL", "addressCountry": "US"},
-  "telephone": "+1-407-000-0000",
-  "url": "https://example.com"
+  "description": "Lawn care and landscaping in Orlando, Kissimmee, Davenport and Haines City, Florida.",
+  "telephone": "+1-407-744-8136",
+  "email": "adglandscaping.si@gmail.com",
+  "areaServed": ["Orlando, FL", "Kissimmee, FL", "Davenport, FL", "Haines City, FL"],
+  "knowsLanguage": ["en", "es"]
 }
 </script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-  :root{
-    --green-900:#12351f; --green-800:#1f5c3a; --green-700:#2d7a4b; --green-500:#4caf6d;
-    --lime:#a8e063; --sand:#f6f3ec; --sand-2:#ece6d8; --ink:#1b1f1c; --muted:#5d6660;
-    --white:#fff; --radius:16px; --shadow:0 10px 30px rgba(18,53,31,.10);
-    --font-head:'Fraunces',Georgia,serif; --font-body:'Inter',system-ui,-apple-system,Segoe UI,sans-serif;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  html{scroll-behavior:smooth}
-  body{font-family:var(--font-body);color:var(--ink);background:var(--sand);line-height:1.6;-webkit-font-smoothing:antialiased}
-  img{max-width:100%;display:block}
-  a{color:inherit}
-  h1,h2,h3{font-family:var(--font-head);line-height:1.15;color:var(--green-900)}
-  h1{font-size:clamp(2.2rem,5vw,3.8rem);font-weight:700}
-  h2{font-size:clamp(1.7rem,3.5vw,2.6rem);font-weight:700}
-  h3{font-size:1.2rem;font-weight:600}
-  .wrap{width:min(1140px,100% - 40px);margin-inline:auto}
-  section{padding:clamp(56px,8vw,96px) 0}
-  .eyebrow{display:inline-block;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--green-700);margin-bottom:12px}
-  .lead{font-size:1.1rem;color:var(--muted);max-width:60ch}
-  .center{text-align:center}.center .lead{margin-inline:auto}
-  .btn{display:inline-flex;align-items:center;gap:8px;padding:14px 24px;border-radius:999px;font-weight:600;text-decoration:none;border:2px solid transparent;cursor:pointer;font-size:1rem;transition:transform .15s,box-shadow .15s,background .15s}
-  .btn:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
-  .btn-primary{background:var(--green-800);color:#fff}.btn-primary:hover{background:var(--green-700)}
-  .btn-lime{background:var(--lime);color:var(--green-900)}
-  .btn-ghost{border-color:var(--green-800);color:var(--green-800);background:transparent}
-  .btn-white{background:#fff;color:var(--green-900)}
+:root{
+  --forest:#24470f; --forest-2:#2f5a14; --lime:#78b52b; --lime-2:#8cc63f; --leaf:#e9f3dc;
+  --ink:#16200f; --body:#4a5443; --mute:#7a8573; --line:#e3e8de; --bg:#ffffff; --soft:#f5f8f1;
+  --r:16px; --shadow:0 24px 60px -24px rgba(22,32,15,.28);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Plus Jakarta Sans",system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{width:min(1240px,100% - 40px);margin-inline:auto}
+.btn{white-space:nowrap;display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:700;font-size:15px;letter-spacing:.02em;text-transform:uppercase;padding:15px 26px;border-radius:12px;border:0;cursor:pointer;transition:transform .15s ease,box-shadow .15s ease,background .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn-lime{background:linear-gradient(180deg,var(--lime-2),var(--lime));color:#fff;box-shadow:0 10px 24px -10px rgba(120,181,43,.8)}
+.btn-white{background:#fff;color:var(--forest)}
+.btn-outline{background:transparent;color:var(--forest);border:1.5px solid var(--line)}
+h1,h2,h3{line-height:1.12;letter-spacing:-.02em}
+h2{font-size:clamp(30px,4vw,48px);font-weight:500}
+h2 b{font-weight:800}
+.center{text-align:center}
+.eyebrow{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--lime)}
+section{padding:96px 0}
 
-  /* NAV */
-  .topbar{background:var(--green-900);color:#dbe8dd;font-size:.85rem;padding:8px 0}
-  .topbar .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
-  .topbar a{color:#fff;text-decoration:none;font-weight:500}
-  header.nav{position:sticky;top:0;z-index:50;background:rgba(246,243,236,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--sand-2)}
-  header.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
-  .logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--font-head);font-weight:700;font-size:1.35rem;color:var(--green-900)}
-  .logo svg{width:38px;height:38px}
-  .logo small{display:block;font-family:var(--font-body);font-weight:500;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--green-700)}
-  nav ul{display:flex;gap:22px;list-style:none}
-  nav a{text-decoration:none;font-weight:500;color:var(--ink);font-size:.92rem;white-space:nowrap}
-  .nav-cta .btn{white-space:nowrap;padding:11px 20px;font-size:.92rem}
-  .logo span{white-space:nowrap}
-  @media(max-width:1100px){.nav-cta .btn-ghost{display:none}}
-  nav a:hover{color:var(--green-700)}
-  .nav-cta{display:flex;gap:10px;align-items:center}
-  .menu-btn{display:none;background:none;border:0;font-size:1.6rem;cursor:pointer;color:var(--green-900)}
-  @media(max-width:900px){
-    nav ul{display:none;position:absolute;top:72px;left:0;right:0;background:var(--sand);flex-direction:column;padding:20px;gap:16px;border-bottom:1px solid var(--sand-2)}
-    nav ul.open{display:flex}
-    .menu-btn{display:block}
-    .nav-cta .btn-ghost{display:none}
-  }
+/* top bar */
+.topbar{position:relative;background:var(--forest);color:#fff;font-size:14px}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;min-height:44px;gap:16px}
+.topbar .ask{font-weight:600}.topbar .ask span{opacity:.75;font-weight:500}
+.topbar a{display:inline-flex;align-items:center;gap:8px;font-weight:500}
+.topbar .es{white-space:nowrap;background:rgba(255,255,255,.12);border-radius:20px;padding:3px 10px;font-size:12px;font-weight:600}
 
-  /* HERO */
-  .hero{position:relative;color:#fff;padding:clamp(80px,12vw,150px) 0;overflow:hidden;
-    background:
-      radial-gradient(1200px 600px at 80% 20%, rgba(168,224,99,.25), transparent 60%),
-      linear-gradient(160deg,#173f28 0%,#1f5c3a 55%,#2d7a4b 100%)}
-  .hero::after{content:"";position:absolute;inset:auto -10% -30% -10%;height:60%;
-    background:radial-gradient(closest-side,rgba(168,224,99,.18),transparent);pointer-events:none}
-  .hero .wrap{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
-  .hero h1{color:#fff}
-  .hero h1 em{font-style:normal;color:var(--lime)}
-  .hero p{color:#dbe8dd;font-size:1.15rem;max-width:52ch;margin:20px 0 32px}
-  .hero-actions{display:flex;gap:12px;flex-wrap:wrap}
-  .hero-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:24px;padding:28px;backdrop-filter:blur(6px)}
-  .hero-card h3{color:#fff;margin-bottom:6px}
-  .hero-card p{font-size:.95rem;margin:0 0 18px}
-  .hero-card ul{list-style:none;display:grid;gap:10px}
-  .hero-card li{display:flex;gap:10px;align-items:flex-start;font-size:.95rem;color:#eef5ef}
-  .hero-card li::before{content:"✓";color:var(--lime);font-weight:700}
-  @media(max-width:900px){.hero .wrap{grid-template-columns:1fr}}
+/* header */
+header{position:sticky;top:0;z-index:50;background:#fff;box-shadow:0 1px 0 var(--line)}
+header .wrap{display:flex;align-items:center;gap:28px;min-height:88px}
+.logo{display:flex;align-items:center;gap:12px;font-weight:800;font-size:20px;line-height:1.05;color:var(--forest)}
+.logo svg{width:50px;height:50px;flex:none}
+.logo small{display:block;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin-top:3px}
+nav{display:flex;gap:26px;margin-left:auto;font-weight:500;font-size:16px;white-space:nowrap}
+nav a{position:relative;padding:6px 0;color:#2a3324}
+nav a:hover{color:var(--forest)}
+nav a:after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--lime);transform:scaleX(0);transition:transform .2s}
+nav a:hover:after{transform:scaleX(1)}
+.hcall{display:flex;align-items:center;gap:12px;font-weight:700;font-size:19px;color:var(--ink);white-space:nowrap}
+.hcall i{width:46px;height:46px;border-radius:50%;background:var(--lime);display:grid;place-items:center;box-shadow:0 0 0 6px var(--leaf)}
+.menu-btn{display:none;margin-left:auto;background:none;border:0;width:44px;height:44px;border-radius:10px;cursor:pointer}
+.menu-btn span{display:block;width:22px;height:2px;background:var(--ink);margin:5px auto;border-radius:2px}
 
-  /* TRUST BAR */
-  .trust{background:var(--green-900);color:#fff;padding:22px 0}
-  .trust .wrap{display:flex;justify-content:space-around;flex-wrap:wrap;gap:20px;text-align:center}
-  .trust b{display:block;font-family:var(--font-head);font-size:1.6rem;color:var(--lime)}
-  .trust span{font-size:.85rem;color:#c9d9cc}
+/* hero */
+.hero{position:relative;background:var(--forest);color:#fff;overflow:hidden;padding:0}
+.hero-photo{position:absolute;inset:0 0 0 auto;width:58%;
+  background:
+   radial-gradient(120% 90% at 70% 20%,rgba(140,198,63,.55),transparent 60%),
+   radial-gradient(80% 70% at 20% 90%,rgba(36,71,15,.9),transparent 70%),
+   linear-gradient(160deg,#3d6d1d,#1e3a0c);}
+.hero-photo:before{content:"";position:absolute;inset:0;opacity:.1;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpath d='M60 100c0-28 12-48 36-60-4 28-16 48-36 60zM60 100c0-28-12-48-36-60 4 28 16 48 36 60z' fill='%23c8ec92'/%3E%3C/svg%3E");background-size:120px}
+.photo-tag{position:absolute;right:28px;top:28px;background:rgba(0,0,0,.35);backdrop-filter:blur(6px);border:1px dashed rgba(255,255,255,.5);border-radius:12px;padding:10px 14px;font-size:13px;font-weight:600;max-width:260px}
+.photo-tag span{display:block;font-weight:500;opacity:.8;font-size:12px}
+.hero-shape{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.hero .wrap{position:relative;z-index:2;min-height:700px;display:flex;align-items:center;padding:70px 0 190px}
+.hero-copy{max-width:640px}
+.hero h1{font-weight:500;font-size:clamp(28px,3.6vw,46px)}
+.hero h1 b{display:block;font-weight:800;font-size:clamp(44px,6vw,76px);line-height:1.02;margin:8px 0}
+.hero .tag{font-size:19px;margin:22px 0 32px;opacity:.95}
+.badges{display:flex;flex-wrap:wrap;gap:12px;margin-top:48px}
+.badge{display:flex;align-items:center;gap:10px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.14);border-radius:40px;padding:8px 18px 8px 8px;font-size:13px;line-height:1.25}
+.badge i{width:36px;height:36px;border-radius:50%;background:#fff;display:grid;place-items:center;flex:none}
+.badge b{display:block;font-size:15px}
 
-  /* SERVICES */
-  .grid{display:grid;gap:22px}
-  .grid-3{grid-template-columns:repeat(3,1fr)}
-  .grid-4{grid-template-columns:repeat(4,1fr)}
-  .grid-2{grid-template-columns:repeat(2,1fr)}
-  @media(max-width:900px){.grid-3,.grid-4{grid-template-columns:repeat(2,1fr)}}
-  @media(max-width:600px){.grid-3,.grid-4,.grid-2{grid-template-columns:1fr}}
-  .card{background:#fff;border-radius:var(--radius);padding:28px;box-shadow:0 2px 0 var(--sand-2);transition:transform .2s,box-shadow .2s}
-  .card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
-  .card .icon{width:52px;height:52px;border-radius:14px;background:linear-gradient(135deg,var(--green-800),var(--green-500));display:grid;place-items:center;margin-bottom:18px;font-size:1.4rem}
-  .card h3{margin-bottom:8px}
-  .card p{color:var(--muted);font-size:.95rem}
-  .card .tag{display:inline-block;margin-top:14px;font-size:.8rem;font-weight:600;color:var(--green-700)}
+/* quote bar */
+.quote-bar{position:relative;z-index:5;margin-top:-140px;padding:0}
+.qcard{background:#fff;border-radius:28px;box-shadow:var(--shadow);padding:48px 48px 44px}
+.qcard h2{text-align:center;font-weight:400;margin-bottom:30px;letter-spacing:-.01em}
+.qcard h2 b{font-weight:800}
+.qform{display:grid;grid-template-columns:1fr 1fr 1fr 1.3fr auto;gap:14px}
+.field{position:relative}
+.field svg{position:absolute;left:18px;top:50%;transform:translateY(-50%);width:20px;height:20px;color:var(--lime)}
+.field input{width:100%;height:60px;border:1.5px solid var(--line);border-radius:12px;padding:0 16px 0 50px;font:inherit;font-size:16px;color:var(--ink);background:#fff;transition:border .15s}
+.field input:focus{outline:none;border-color:var(--lime)}
+.qform .btn{height:60px;padding:0 38px;font-size:16px}
+.qnote{text-align:center;color:var(--mute);font-size:13px;margin-top:16px}
+.qdone{text-align:center;padding:10px 0}
+.qdone h3{font-size:26px;margin-bottom:6px}
 
-  /* WHY */
-  .why{background:#fff}
-  .why .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
-  .why-list{list-style:none;display:grid;gap:18px;margin-top:28px}
-  .why-list li{display:grid;grid-template-columns:44px 1fr;gap:14px}
-  .why-list .num{width:44px;height:44px;border-radius:12px;background:var(--sand);display:grid;place-items:center;font-family:var(--font-head);font-weight:700;color:var(--green-800)}
-  .why-list b{display:block;color:var(--green-900)}
-  .why-list span{color:var(--muted);font-size:.95rem}
-  .photo{aspect-ratio:4/5;border-radius:24px;position:relative;overflow:hidden;
-    background:linear-gradient(180deg,#8fd3f4 0%,#c6e8d5 40%,#3f8a55 41%,#2d7a4b 100%)}
-  .photo::before{content:"";position:absolute;left:10%;bottom:20%;width:34%;height:44%;border-radius:50% 50% 8px 8px;background:#1f5c3a;box-shadow:24px 30px 0 -6px #2d7a4b,-20px 40px 0 -10px #12351f}
-  .photo::after{content:"";position:absolute;right:8%;bottom:8%;width:44%;height:12%;border-radius:8px;background:repeating-linear-gradient(90deg,#d9c8a6 0 22px,#c4b18a 22px 24px)}
-  .photo .label{position:absolute;left:16px;top:16px;background:rgba(255,255,255,.9);padding:6px 12px;border-radius:999px;font-size:.75rem;font-weight:600;color:var(--green-900)}
-  @media(max-width:900px){.why .wrap{grid-template-columns:1fr}.photo{aspect-ratio:16/10}}
+/* before/after */
+.ba{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:28px;margin-top:56px}
+.arrow{width:60px;height:60px;border-radius:14px;border:1.5px solid var(--line);background:#fff;display:grid;place-items:center;cursor:pointer;color:var(--lime);transition:.15s}
+.arrow:hover{border-color:var(--lime);background:var(--leaf)}
+.slides{position:relative;overflow:hidden}
+.slide{display:none;grid-template-columns:1fr 1fr 1.25fr;gap:28px;align-items:center}
+.slide.on{display:grid;animation:fade .4s ease}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.pic{position:relative;aspect-ratio:3/4;border-radius:22px;overflow:hidden;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;color:#fff;font-weight:600;font-size:14px;padding:20px}
+.pic.before{background:linear-gradient(160deg,#c9b893,#9c8a63)}
+.pic.after{background:linear-gradient(160deg,#6fae2f,#2d5d14)}
+.pic small{display:block;font-weight:500;opacity:.85;margin-top:4px}
+.pic .ribbon{position:absolute;bottom:22%;background:var(--lime);color:#fff;font-weight:800;font-size:20px;letter-spacing:.04em;padding:8px 24px;transform:rotate(-12deg);box-shadow:0 8px 20px -8px rgba(0,0,0,.4)}
+.pic.before .ribbon{right:-10px}.pic.after .ribbon{left:-10px}
+.story h4{font-size:15px;font-weight:800;letter-spacing:.03em;text-transform:uppercase;margin-bottom:10px}
+.story p{color:var(--body);margin-bottom:22px}
+.story .q{font-weight:700;text-transform:uppercase;font-size:14px;margin-bottom:10px}
+.story .who{font-weight:700;color:var(--ink);font-size:18px}
+.ph{background:#fff8e1;color:#7a5600;border-radius:6px;padding:1px 6px;font-size:12px;font-weight:700;vertical-align:middle}
+.dots{display:flex;justify-content:center;gap:8px;margin-top:30px}
+.dots button{width:10px;height:10px;border-radius:10px;border:0;background:var(--line);cursor:pointer;transition:.2s}
+.dots button.on{width:28px;background:var(--lime)}
 
-  /* PROCESS */
-  .step{position:relative;background:#fff;border-radius:var(--radius);padding:28px 24px 24px;border:1px solid var(--sand-2)}
-  .step .n{position:absolute;top:-16px;left:24px;background:var(--lime);color:var(--green-900);font-weight:700;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font-family:var(--font-head)}
-  .step h3{margin:12px 0 8px}.step p{color:var(--muted);font-size:.95rem}
+/* services */
+.svc-sec{background:var(--soft)}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:52px}
+.card{background:#fff;border-radius:20px;padding:30px;border:1px solid var(--line);transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.card .ic{width:58px;height:58px;border-radius:16px;background:var(--leaf);display:grid;place-items:center;margin-bottom:20px;color:var(--forest-2)}
+.card h3{font-size:21px;margin-bottom:8px}
+.card p{color:var(--body);font-size:15px}
+.card .pill{display:inline-block;margin-top:16px;font-size:12px;font-weight:700;color:var(--forest-2);background:var(--leaf);padding:4px 10px;border-radius:20px}
 
-  /* GALLERY */
-  .gallery{background:#fff}
-  .tiles{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:190px;gap:14px}
-  .tile{border-radius:14px;position:relative;overflow:hidden;display:flex;align-items:flex-end;padding:14px;color:#fff;font-weight:600;font-size:.9rem;text-shadow:0 1px 4px rgba(0,0,0,.4)}
-  .tile.big{grid-column:span 2;grid-row:span 2}
-  .t1{background:linear-gradient(160deg,#2d7a4b,#12351f)}
-  .t2{background:linear-gradient(160deg,#a8e063,#4caf6d)}
-  .t3{background:linear-gradient(160deg,#d9c8a6,#8b6f47)}
-  .t4{background:linear-gradient(160deg,#5aa9e6,#2d7a4b)}
-  .t5{background:linear-gradient(160deg,#7fb069,#1f5c3a)}
-  .tile small{position:absolute;top:12px;left:12px;background:rgba(255,255,255,.85);color:var(--green-900);padding:3px 9px;border-radius:999px;font-size:.7rem;text-shadow:none}
-  @media(max-width:700px){.tiles{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px}}
+/* split: why + steps */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.why-visual{position:relative;border-radius:28px;overflow:hidden;min-height:520px;background:linear-gradient(160deg,#3d6d1d,#1e3a0c);color:#fff;display:flex;align-items:flex-end;padding:30px}
+.why-visual:before{content:"";position:absolute;inset:0;opacity:.18;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='90' viewBox='0 0 120 120'%3E%3Cpath d='M60 100c0-28 12-48 36-60-4 28-16 48-36 60zM60 100c0-28-12-48-36-60 4 28 16 48 36 60z' fill='%23c8ec92'/%3E%3C/svg%3E");background-size:90px}
+.why-visual .stat{position:relative;background:#fff;color:var(--ink);border-radius:18px;padding:18px 22px;display:flex;gap:16px;align-items:center;box-shadow:var(--shadow)}
+.why-visual .stat b{font-size:34px;color:var(--lime);line-height:1}
+.steps{margin-top:30px;display:grid;gap:18px}
+.step{display:grid;grid-template-columns:52px 1fr;gap:16px;align-items:start}
+.step .n{width:52px;height:52px;border-radius:14px;background:var(--forest);color:#fff;font-weight:800;font-size:20px;display:grid;place-items:center}
+.step h3{font-size:18px;margin-bottom:2px}
+.step p{color:var(--body);font-size:15px}
 
-  /* AREAS */
-  .areas .chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:28px}
-  .chip{background:#fff;border:1px solid var(--sand-2);padding:10px 16px;border-radius:999px;font-size:.9rem;font-weight:500}
+/* areas */
+.areas{background:var(--forest);color:#fff;position:relative;overflow:hidden}
+.areas:after{content:"";position:absolute;top:-20%;right:-8%;width:46%;height:140%;background:var(--lime);transform:skewX(-18deg);opacity:.12}
+.areas .wrap{position:relative;z-index:1}
+.areas h2{color:#fff}
+.area-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:48px}
+.area{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:18px;padding:26px}
+.area h3{font-size:22px;margin:10px 0 4px}
+.area p{opacity:.8;font-size:14px}
+.area i{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:var(--lime)}
+.areas .more{margin-top:24px;opacity:.85}
 
-  /* REVIEWS */
-  .reviews{background:var(--green-900);color:#fff}
-  .reviews h2,.reviews .eyebrow{color:#fff}.reviews .eyebrow{color:var(--lime)}
-  .review{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:var(--radius);padding:26px}
-  .stars{color:var(--lime);letter-spacing:2px;margin-bottom:12px}
-  .review p{color:#e6efe8;font-size:.98rem}
-  .review b{display:block;margin-top:16px;font-size:.9rem}
-  .review span{font-size:.8rem;color:#b7c9bb}
+/* pay + contact */
+.two{display:grid;grid-template-columns:1fr 1.1fr;gap:28px;margin-top:52px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:22px;padding:34px}
+.panel h3{font-size:24px;margin-bottom:6px}
+.panel .sub{color:var(--body);margin-bottom:22px}
+.pay-option{display:flex;justify-content:space-between;align-items:center;gap:14px;border:1.5px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:12px;transition:.15s}
+.pay-option:hover{border-color:var(--lime);background:var(--soft)}
+.pay-option b{display:block}
+.pay-option span{color:var(--mute);font-size:14px}
+.pay-option .go{color:var(--lime);font-size:22px}
+.secure{font-size:13px;color:var(--mute);margin-top:10px}
+.contact-list{margin-top:26px;display:grid;gap:14px}
+.contact-list a,.contact-list div{display:flex;gap:14px;align-items:center;font-weight:600}
+.contact-list i{width:44px;height:44px;border-radius:12px;background:var(--leaf);display:grid;place-items:center;color:var(--forest-2);flex:none}
+form.full label{display:block;font-size:13px;font-weight:700;margin:14px 0 6px;color:#2a3324}
+form.full input,form.full select,form.full textarea{width:100%;border:1.5px solid var(--line);border-radius:12px;padding:13px 14px;font:inherit;font-size:15px;background:#fff}
+form.full input:focus,form.full select:focus,form.full textarea:focus{outline:none;border-color:var(--lime)}
+form.full textarea{min-height:110px;resize:vertical}
+form.full .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+form.full .btn{width:100%;margin-top:20px}
+.fine{font-size:12px;color:var(--mute);margin-top:12px}
 
-  /* QUOTE + PAY */
-  .quote .wrap{display:grid;grid-template-columns:1fr 1.1fr;gap:48px;align-items:start}
-  @media(max-width:900px){.quote .wrap{grid-template-columns:1fr}}
-  .panel{background:#fff;border-radius:24px;padding:32px;box-shadow:var(--shadow)}
-  .panel h3{font-size:1.4rem;margin-bottom:6px}
-  .panel .sub{color:var(--muted);font-size:.95rem;margin-bottom:22px}
-  form .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-  @media(max-width:600px){form .row{grid-template-columns:1fr}}
-  label{display:block;font-size:.85rem;font-weight:600;margin-bottom:6px;color:var(--green-900)}
-  input,select,textarea{width:100%;padding:12px 14px;border:1.5px solid var(--sand-2);border-radius:10px;font:inherit;font-size:.95rem;background:#fbfaf7;margin-bottom:14px}
-  input:focus,select:focus,textarea:focus{outline:none;border-color:var(--green-500);background:#fff}
-  textarea{min-height:110px;resize:vertical}
-  .fine{font-size:.78rem;color:var(--muted);margin-top:10px}
-  .embed{min-height:420px;border-radius:14px;border:2px dashed var(--sand-2);display:grid;place-items:center;text-align:center;padding:24px;color:var(--muted);font-size:.9rem}
-  .embed iframe{width:100%;min-height:620px;border:0;border-radius:14px}
-  .pay-options{display:grid;gap:12px;margin-top:18px}
-  .pay-option{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:16px 18px;border:1.5px solid var(--sand-2);border-radius:14px;text-decoration:none;transition:border-color .15s,background .15s}
-  .pay-option:hover{border-color:var(--green-500);background:#f6fbf4}
-  .pay-option b{display:block;color:var(--green-900)}
-  .pay-option span{font-size:.85rem;color:var(--muted)}
-  .pay-option .arrow{color:var(--green-700);font-weight:700}
-  .secure{display:flex;gap:8px;align-items:center;font-size:.8rem;color:var(--muted);margin-top:16px}
+/* faq */
+details{border-bottom:1px solid var(--line);padding:20px 0}
+summary{cursor:pointer;font-weight:700;font-size:18px;list-style:none;display:flex;justify-content:space-between;gap:20px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";color:var(--lime);font-size:26px;line-height:1}
+details[open] summary:after{content:"–"}
+details p{color:var(--body);margin-top:10px}
 
-  /* FAQ */
-  details{background:#fff;border-radius:14px;padding:18px 22px;border:1px solid var(--sand-2);margin-bottom:10px}
-  summary{cursor:pointer;font-weight:600;color:var(--green-900);list-style:none;display:flex;justify-content:space-between;align-items:center}
-  summary::after{content:"+";font-size:1.4rem;color:var(--green-700)}
-  details[open] summary::after{content:"–"}
-  details p{margin-top:12px;color:var(--muted);font-size:.95rem}
+/* cta band */
+.band{background:linear-gradient(110deg,var(--forest) 0 62%,var(--lime) 62% 100%);border-radius:28px;color:#fff;padding:56px;display:flex;justify-content:space-between;align-items:center;gap:30px;flex-wrap:wrap}
+.band h2{color:#fff;font-size:clamp(26px,3vw,38px)}
+.band p{opacity:.85;margin-top:6px}
 
-  /* CTA BAND */
-  .band{background:linear-gradient(135deg,var(--green-800),var(--green-500));color:#fff;border-radius:28px;padding:clamp(36px,6vw,64px);display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
-  .band h2{color:#fff}.band p{color:#e6efe8}
+footer{background:#132607;color:#cfd8c6;padding:70px 0 30px;margin-top:96px}
+footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:40px}
+footer .logo{color:#fff}footer .logo small{color:#9fb08f}
+footer h4{color:#fff;font-size:15px;margin-bottom:14px}
+footer li{list-style:none;margin:8px 0;font-size:15px}
+footer a:hover{color:#fff}
+footer .copy{border-top:1px solid rgba(255,255,255,.1);margin-top:44px;padding-top:22px;font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;opacity:.8}
 
-  /* FOOTER */
-  footer{background:var(--green-900);color:#c9d9cc;padding:56px 0 28px;font-size:.92rem}
-  footer .cols{display:grid;grid-template-columns:2fr 1fr 1fr 1.2fr;gap:36px;margin-bottom:40px}
-  @media(max-width:800px){footer .cols{grid-template-columns:1fr 1fr}}
-  @media(max-width:500px){footer .cols{grid-template-columns:1fr}}
-  footer h4{color:#fff;margin-bottom:14px;font-size:.95rem}
-  footer ul{list-style:none;display:grid;gap:8px}
-  footer a{color:#c9d9cc;text-decoration:none}footer a:hover{color:var(--lime)}
-  footer .logo{color:#fff}footer .logo small{color:var(--lime)}
-  .copy{border-top:1px solid rgba(255,255,255,.12);padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:.8rem}
+.sticky-call{display:none}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
 
-  /* MOBILE STICKY CALL */
-  .sticky-call{display:none;position:fixed;bottom:16px;left:16px;right:16px;z-index:60}
-  .sticky-call .btn{width:100%;justify-content:center;box-shadow:var(--shadow)}
-  @media(max-width:700px){.sticky-call{display:block}body{padding-bottom:80px}}
-
-  .reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
-  .reveal.in{opacity:1;transform:none}
+/* responsive */
+@media (max-width:1240px){nav{gap:18px;font-size:15px}}
+@media (max-width:1100px){
+  .hcall span{display:none}
+  .qform{grid-template-columns:1fr 1fr}.qform .msg{grid-column:1/-1}.qform .btn{grid-column:1/-1}
+  .slide{grid-template-columns:1fr 1fr}.story{grid-column:1/-1}
+  .area-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:860px){
+  .topbar .ask{display:none}
+  nav{position:absolute;top:100%;left:0;right:0;background:#fff;flex-direction:column;gap:0;padding:8px 20px 20px;box-shadow:0 20px 30px -20px rgba(0,0,0,.25);display:none}
+  nav.open{display:flex}nav a{padding:14px 0;border-bottom:1px solid var(--line)}
+  .menu-btn{display:block}.hcall{margin-left:0}.hcall i{width:40px;height:40px}
+  header .head-cta{display:none}
+  .hero-photo{position:relative;width:100%;height:280px;inset:auto}
+  .hero{display:flex;flex-direction:column-reverse}
+  .hero .wrap{min-height:0;padding:48px 0 170px}
+  .hero-shape{display:none}.photo-tag{top:auto;bottom:20px;right:16px}
+  .grid3,.split,.two{grid-template-columns:1fr}
+  .why-visual{min-height:340px}
+  .ba{grid-template-columns:1fr}.ba .arrow{display:none}
+  .slide{grid-template-columns:1fr 1fr;gap:14px}
+  .qcard{padding:30px 20px}
+  footer .cols{grid-template-columns:1fr 1fr}
+  .band{background:var(--forest);padding:36px 26px}
+  section{padding:72px 0}
+  .sticky-call{display:flex;gap:10px;position:fixed;left:12px;right:12px;bottom:12px;z-index:60}
+  .sticky-call .btn{flex:1;padding:14px}
+  footer{padding-bottom:100px}
+}
+@media (max-width:520px){
+  .wrap{width:calc(100% - 32px)}
+  .qform{grid-template-columns:1fr}
+  .area-grid{grid-template-columns:1fr}
+  form.full .row{grid-template-columns:1fr}
+  footer .cols{grid-template-columns:1fr}
+  .logo{font-size:17px}.logo svg{width:42px;height:42px}
+  .hcall{font-size:0}.hcall i{font-size:16px}
+}
 </style>
 </head>
-<body>
+<body id="top">
 
 <div class="topbar">
   <div class="wrap">
-    <span>🌿 Serving Orlando &amp; all of Central Florida · Se habla español</span>
-    <span>Mon–Sat 7am–6pm · <a href="tel:+14070000000" data-phone-link>(407) 000-0000</a></span>
+    <div class="ask">Need help with your lawn or landscaping? <span>Free quotes, fast replies.</span></div>
+    <div style="display:flex;gap:14px;align-items:center;margin-left:auto">
+      <span class="es">Se habla español</span>
+      <a href="mailto:adglandscaping.si@gmail.com" data-email-link><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><span data-email-text>adglandscaping.si@gmail.com</span></a>
+    </div>
   </div>
 </div>
 
-<header class="nav">
-  <div class="wrap">
+<header>
+  <div class="wrap" style="position:relative">
     <a href="#top" class="logo" aria-label="ADG Landscaping home">
-      <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#1f5c3a"/><path d="M32 50c0-14 6-24 18-30-2 14-8 24-18 30zM32 50c0-14-6-24-18-30 2 14 8 24 18 30z" fill="#a8e063"/></svg>
-      <span>ADG Landscaping<small>Orlando · Central Florida</small></span>
+      <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#24470f"/><path d="M32 50c0-14 6-24 18-30-2 14-8 24-18 30zM32 50c0-14-6-24-18-30 2 14 8 24 18 30z" fill="#8cc63f"/></svg>
+      <span>ADG Landscaping<small>Central Florida</small></span>
     </a>
-    <nav>
-      <ul id="menu">
-        <li><a href="#services">Services</a></li>
-        <li><a href="#why">Why ADG</a></li>
-        <li><a href="#process">How it works</a></li>
-        <li><a href="#gallery">Our work</a></li>
-        <li><a href="#areas">Service areas</a></li>
-        <li><a href="#pay">Pay online</a></li>
-      </ul>
+    <nav id="menu">
+      <a href="#top">Home</a>
+      <a href="#services">Services</a>
+      <a href="#work">Our Work</a>
+      <a href="#areas">Service Areas</a>
+      <a href="#pay">Pay Online</a>
+      <a href="#contact">Contact</a>
     </nav>
-    <div class="nav-cta">
-      <a class="btn btn-ghost" href="tel:+14070000000" data-phone-link>Call now</a>
-      <a class="btn btn-primary" href="#quote">Get a free quote</a>
-      <button class="menu-btn" aria-label="Open menu" onclick="document.getElementById('menu').classList.toggle('open')">☰</button>
-    </div>
+    <a class="hcall" href="tel:+14077448136" data-phone-link><i><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></i><span data-phone-text>(407) 744-8136</span></a>
+    <a class="btn btn-lime head-cta" href="#quote">Free Quote</a>
+    <button class="menu-btn" aria-label="Open menu" onclick="document.getElementById('menu').classList.toggle('open')"><span></span><span></span><span></span></button>
   </div>
 </header>
 
-<main id="top">
+<main>
 
 <!-- HERO -->
 <section class="hero">
+  <div class="hero-photo" role="img" aria-label="ADG Landscaping crew">
+    <div class="photo-tag">📷 ADG crew photo goes here<span>Team in ADG shirts, on a finished lawn</span></div>
+  </div>
+  <svg class="hero-shape" viewBox="0 0 1440 700" preserveAspectRatio="none" aria-hidden="true">
+    <polygon points="0,0 590,0 760,700 0,700" fill="#24470f"/>
+    <polygon points="590,0 660,0 830,700 760,700" fill="#78b52b"/>
+  </svg>
   <div class="wrap">
-    <div>
-      <span class="eyebrow" style="color:var(--lime)">Lawn care · Landscaping · Irrigation · Hardscape</span>
-      <h1>A yard you're proud of, <em>handled for you.</em></h1>
-      <p>ADG Landscaping keeps Orlando and Central Florida homes and businesses looking sharp year-round — with crews that show up on schedule, clear pricing, and a simple way to book and pay online.</p>
-      <div class="hero-actions">
-        <a class="btn btn-lime" href="#quote">Get a free quote →</a>
-        <a class="btn btn-white" href="#services">See services</a>
+    <div class="hero-copy">
+      <h1>Central Florida's One-Stop <b>Lawn Care &amp; Landscaping</b> Crew</h1>
+      <p class="tag">Weekly &amp; bi-weekly service · Cleanups · Landscaping. On schedule, easy to pay.</p>
+      <a class="btn btn-white" href="#quote">Get my free quote</a>
+      <div class="badges">
+        <div class="badge"><i><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#78b52b" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg></i><div><b>Free quotes</b>No obligation</div></div>
+        <div class="badge"><i><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#78b52b" stroke-width="2.2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></i><div><b>Weekly &amp; bi-weekly</b>Set routes, same crew</div></div>
+        <div class="badge"><i><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#78b52b" stroke-width="2.2"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></i><div><b>Autopay by card</b>No chasing invoices</div></div>
       </div>
     </div>
-    <aside class="hero-card">
-      <h3>Why neighbors choose ADG</h3>
-      <p>Straightforward landscaping, done right the first time.</p>
-      <ul>
-        <li>On-time scheduled visits with text reminders</li>
-        <li>Free, written quotes within 24 hours</li>
-        <li>Licensed &amp; insured crews (placeholder — add license #)</li>
-        <li>Pay securely online — card, bank, or recurring</li>
-        <li>Bilingual service in English and Spanish</li>
-      </ul>
-    </aside>
   </div>
 </section>
 
-<div class="trust">
+<!-- QUICK QUOTE -->
+<section class="quote-bar" id="quote">
   <div class="wrap">
-    <div><b>10+</b><span>Years in Central Florida</span></div>
-    <div><b>500+</b><span>Yards maintained</span></div>
-    <div><b>24h</b><span>Quote turnaround</span></div>
-    <div><b>5.0★</b><span>Google rating (placeholder)</span></div>
+    <div class="qcard reveal">
+      <h2>GET A <b>FREE</b> QUOTE</h2>
+      <form class="qform" id="quick-form" onsubmit="return sendLead(event,'quick')">
+        <div class="field"><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0z"/></svg><input name="full_name" placeholder="Your name" required aria-label="Your name"></div>
+        <div class="field"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg><input name="phone" type="tel" placeholder="Phone" required aria-label="Phone"></div>
+        <div class="field"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><input name="email" type="email" placeholder="Email" required aria-label="Email"></div>
+        <div class="field msg"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 4h16a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H8l-4 4V5a1 1 0 0 1 1-1z"/></svg><input name="message" placeholder="Address &amp; how can we help?" aria-label="Address and how can we help"></div>
+        <button class="btn btn-lime" type="submit">Submit</button>
+      </form>
+      <p class="qnote">We reply within one business day. Prefer to talk? Call <a href="tel:+14077448136" data-phone-link><b data-phone-text>(407) 744-8136</b></a>.</p>
+    </div>
   </div>
-</div>
+</section>
+
+<!-- BEFORE / AFTER -->
+<section id="work">
+  <div class="wrap">
+    <h2 class="center reveal">Real Results: <b>Before and After</b> ADG</h2>
+    <div class="ba reveal">
+      <button class="arrow" aria-label="Previous project" onclick="go(-1)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M19 12H5m6-6-6 6 6 6"/></svg></button>
+      <div class="slides" id="slides">
+        <div class="slide on">
+          <div class="pic before">Before photo<small>Project 1</small><span class="ribbon">BEFORE</span></div>
+          <div class="pic after">After photo<small>Same angle</small><span class="ribbon">AFTER</span></div>
+          <div class="story">
+            <h4>The challenge <span class="ph">sample text</span></h4>
+            <p>Overgrown front yard with patchy St. Augustine, weeds through the beds, and no regular service. The homeowner needed it looking right for the HOA.</p>
+            <h4>What we did</h4>
+            <p>Full cleanup, edging, fresh mulch in every bed, and a bi-weekly maintenance plan with autopay.</p>
+            <p class="q">Customer review <span class="ph">add real review</span></p>
+            <p>"Client's words go here, with their permission."</p>
+            <p class="who">— Customer name, Kissimmee</p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="pic before">Before photo<small>Project 2</small><span class="ribbon">BEFORE</span></div>
+          <div class="pic after">After photo<small>Same angle</small><span class="ribbon">AFTER</span></div>
+          <div class="story">
+            <h4>The challenge <span class="ph">sample text</span></h4>
+            <p>A new home in Davenport with bare beds and builder-grade landscaping that was struggling in the Florida heat.</p>
+            <h4>What we did</h4>
+            <p>Planted Florida-friendly shrubs and palms, added rock and mulch borders, and set up weekly lawn service.</p>
+            <p class="q">Customer review <span class="ph">add real review</span></p>
+            <p>"Client's words go here, with their permission."</p>
+            <p class="who">— Customer name, Davenport</p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="pic before">Before photo<small>Project 3</small><span class="ribbon">BEFORE</span></div>
+          <div class="pic after">After photo<small>Same angle</small><span class="ribbon">AFTER</span></div>
+          <div class="story">
+            <h4>The challenge <span class="ph">sample text</span></h4>
+            <p>A rental property in Haines City that had been neglected between tenants: tall grass, debris, and overgrown hedges.</p>
+            <h4>What we did</h4>
+            <p>One-day cleanup and haul-away, hedge trimming, and a recurring plan so it stays rent-ready.</p>
+            <p class="q">Customer review <span class="ph">add real review</span></p>
+            <p>"Client's words go here, with their permission."</p>
+            <p class="who">— Customer name, Haines City</p>
+          </div>
+        </div>
+      </div>
+      <button class="arrow" aria-label="Next project" onclick="go(1)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button>
+    </div>
+    <div class="dots" id="dots"></div>
+  </div>
+</section>
 
 <!-- SERVICES -->
-<section id="services">
+<section class="svc-sec" id="services">
   <div class="wrap">
-    <div class="center reveal">
-      <span class="eyebrow">Our services</span>
-      <h2>Everything your property needs, one trusted team</h2>
-      <p class="lead">From weekly lawn maintenance to full landscape makeovers, ADG covers residential and commercial properties across the Orlando metro.</p>
-    </div>
-    <div class="grid grid-3" style="margin-top:44px">
-      <div class="card reveal"><div class="icon">🌱</div><h3>Lawn Maintenance</h3><p>Weekly or bi-weekly mowing, edging, trimming, and blowing. Consistent schedule, consistent results.</p><span class="tag">Recurring plans available</span></div>
-      <div class="card reveal"><div class="icon">🌴</div><h3>Landscape Design &amp; Install</h3><p>Florida-friendly plants, palms, sod, mulch, and beds designed for our heat, rain, and sandy soil.</p><span class="tag">Free design consultation</span></div>
-      <div class="card reveal"><div class="icon">💧</div><h3>Irrigation &amp; Sprinklers</h3><p>Repairs, new zones, smart controllers, and seasonal tune-ups that keep water bills — and your grass — in check.</p><span class="tag">Same-week repairs</span></div>
-      <div class="card reveal"><div class="icon">🧱</div><h3>Pavers &amp; Hardscape</h3><p>Driveways, patios, walkways, fire pits, and retaining walls built to last through Florida summers.</p><span class="tag">Custom quotes</span></div>
-      <div class="card reveal"><div class="icon">✂️</div><h3>Tree &amp; Shrub Care</h3><p>Palm trimming, hedge shaping, tree pruning, and storm-prep cutbacks before hurricane season.</p><span class="tag">Hurricane prep</span></div>
-      <div class="card reveal"><div class="icon">🧹</div><h3>Cleanups &amp; Mulch</h3><p>One-time cleanups, seasonal refreshes, mulch and rock installs, and pressure washing add-ons.</p><span class="tag">One-time or seasonal</span></div>
+    <div class="center reveal"><span class="eyebrow">Our services</span><h2>Everything your yard needs, <b>one trusted crew</b></h2></div>
+    <div class="grid3">
+      <div class="card reveal"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 20h18M6 20V10m4 10V6m4 14V8m4 12v-9"/></svg></div><h3>Lawn Maintenance</h3><p>Mowing, edging, trimming and blowing on a set weekly or bi-weekly route.</p><span class="pill">Weekly · Bi-weekly</span></div>
+      <div class="card reveal"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21c0-7 3-12 9-15-1 7-4 12-9 15zM12 21c0-7-3-12-9-15 1 7 4 12 9 15z"/></svg></div><h3>Landscaping</h3><p>Florida-friendly plants, palms, sod, and beds designed to handle our heat and rain.</p><span class="pill">Free consultation</span></div>
+      <div class="card reveal"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M6 7l1 13h10l1-13M9 7V4h6v3"/></svg></div><h3>Cleanups &amp; Haul-Away</h3><p>One-time and seasonal cleanups, overgrown yards, move-out and rental turnovers.</p><span class="pill">One-time or seasonal</span></div>
+      <div class="card reveal"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 3v3m0 12v3M3 12h3m12 0h3"/></svg></div><h3>Mulch &amp; Rock</h3><p>Fresh mulch, decorative rock, and clean bed edges that make the whole property pop.</p><span class="pill">Curb appeal</span></div>
+      <div class="card reveal"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3v18M6 8c4 0 8-2 12-5v10c-4 3-8 5-12 5"/></svg></div><h3>Tree &amp; Hedge Care</h3><p>Hedge shaping, palm trimming, and storm-prep cutbacks before hurricane season.</p><span class="pill">Hurricane prep</span></div>
+      <div class="card reveal"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21V9l9-6 9 6v12"/><path d="M9 21v-6h6v6"/></svg></div><h3>Commercial &amp; HOA</h3><p>Apartment complexes, HOA common areas, and business properties on a reliable contract.</p><span class="pill">Custom quote</span></div>
     </div>
   </div>
 </section>
 
-<!-- WHY -->
-<section id="why" class="why">
-  <div class="wrap">
-    <div class="photo reveal"><span class="label">📷 Replace with a real project photo</span></div>
+<!-- WHY + HOW -->
+<section id="why">
+  <div class="wrap split">
+    <div class="why-visual reveal">
+      <div class="photo-tag" style="top:24px;bottom:auto;left:24px;right:auto">📷 Crew-at-work photo goes here</div>
+      <div class="stat"><b>24h</b><div><strong>Quote turnaround</strong><br><span style="color:var(--mute);font-size:14px">Send us your address and a photo</span></div></div>
+    </div>
     <div class="reveal">
-      <span class="eyebrow">Why ADG</span>
-      <h2>Organized, reliable, and easy to work with</h2>
-      <p class="lead">Landscaping shouldn't mean chasing your crew for a date or a bill. ADG runs on a real schedule with real communication.</p>
-      <ul class="why-list">
-        <li><span class="num">1</span><div><b>You always know when we're coming</b><span>Every visit is scheduled and confirmed by text or email the day before.</span></div></li>
-        <li><span class="num">2</span><div><b>Clear quotes, no surprises</b><span>Written estimates with line items. What we quote is what you pay.</span></div></li>
-        <li><span class="num">3</span><div><b>Pay the way you want</b><span>Secure online invoices, autopay for recurring plans, or card on-site.</span></div></li>
-        <li><span class="num">4</span><div><b>Built for Central Florida</b><span>We know St. Augustine vs. Zoysia, chinch bugs, sandy soil, and HOA standards.</span></div></li>
-      </ul>
-      <div style="margin-top:28px"><a class="btn btn-primary" href="#quote">Request a quote</a></div>
-    </div>
-  </div>
-</section>
-
-<!-- PROCESS -->
-<section id="process">
-  <div class="wrap">
-    <div class="center reveal">
       <span class="eyebrow">How it works</span>
-      <h2>From first call to finished yard in 4 simple steps</h2>
-    </div>
-    <div class="grid grid-4" style="margin-top:52px">
-      <div class="step reveal"><span class="n">1</span><h3>Request a quote</h3><p>Fill out the short form or call. Tell us about your property and what you need.</p></div>
-      <div class="step reveal"><span class="n">2</span><h3>Free on-site visit</h3><p>We walk the property, take measurements, and send a written quote within 24 hours.</p></div>
-      <div class="step reveal"><span class="n">3</span><h3>Approve &amp; schedule</h3><p>Approve online, pick a date, and get a confirmation. Deposits can be paid securely online.</p></div>
-      <div class="step reveal"><span class="n">4</span><h3>We get to work</h3><p>Our crew arrives on time, does the job right, and sends the invoice with a pay link when done.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- GALLERY -->
-<section id="gallery" class="gallery">
-  <div class="wrap">
-    <div class="center reveal">
-      <span class="eyebrow">Our work</span>
-      <h2>Recent projects around Orlando</h2>
-      <p class="lead">Placeholder tiles — swap in real before/after photos from ADG's projects.</p>
-    </div>
-    <div class="tiles reveal" style="margin-top:40px">
-      <div class="tile big t1"><small>Photo placeholder</small>Full front-yard redesign · Lake Nona</div>
-      <div class="tile t2"><small>Photo placeholder</small>Sod &amp; mulch refresh · Winter Park</div>
-      <div class="tile t3"><small>Photo placeholder</small>Paver patio · Windermere</div>
-      <div class="tile t4"><small>Photo placeholder</small>Irrigation upgrade · Kissimmee</div>
-      <div class="tile t5"><small>Photo placeholder</small>Palm trimming · Dr. Phillips</div>
+      <h2>From first call to a yard <b>you don't have to think about</b></h2>
+      <div class="steps">
+        <div class="step"><div class="n">1</div><div><h3>Request a quote</h3><p>Use the form or call. Tell us your address, lot size, and what you need.</p></div></div>
+        <div class="step"><div class="n">2</div><div><h3>Get a clear price</h3><p>We review your property and send a written quote, usually within 24 hours.</p></div></div>
+        <div class="step"><div class="n">3</div><div><h3>Pick your schedule</h3><p>Weekly, bi-weekly, or one-time. You'll get a reminder before every visit.</p></div></div>
+        <div class="step"><div class="n">4</div><div><h3>Pay on autopay</h3><p>Save your card once and you're done. No checks, no chasing, no reminders.</p></div></div>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- AREAS -->
-<section id="areas" class="areas">
-  <div class="wrap center reveal">
-    <span class="eyebrow">Service areas</span>
-    <h2>Proudly serving Orlando &amp; Central Florida</h2>
-    <p class="lead">Based in Orlando, we serve homes and businesses across Orange, Seminole, Osceola, and Lake counties.</p>
-    <div class="chips">
-      <span class="chip">Orlando</span><span class="chip">Winter Park</span><span class="chip">Lake Nona</span><span class="chip">Dr. Phillips</span><span class="chip">Windermere</span><span class="chip">Winter Garden</span><span class="chip">Kissimmee</span><span class="chip">St. Cloud</span><span class="chip">Sanford</span><span class="chip">Oviedo</span><span class="chip">Altamonte Springs</span><span class="chip">Apopka</span><span class="chip">Clermont</span><span class="chip">Celebration</span><span class="chip">Hunter's Creek</span>
+<section class="areas" id="areas">
+  <div class="wrap">
+    <div class="reveal"><span class="eyebrow">Service areas</span><h2>Proudly serving <b>Central Florida</b></h2></div>
+    <div class="area-grid">
+      <div class="area reveal"><i><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5z"/></svg></i><h3>Orlando</h3><p>Lawn care and landscaping across the Orlando metro.</p></div>
+      <div class="area reveal"><i><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5z"/></svg></i><h3>Kissimmee</h3><p>Homes, rentals and HOAs throughout Osceola County.</p></div>
+      <div class="area reveal"><i><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5z"/></svg></i><h3>Davenport</h3><p>New builds and vacation homes along US-27.</p></div>
+      <div class="area reveal"><i><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5z"/></svg></i><h3>Haines City</h3><p>Weekly and bi-weekly routes in Polk County.</p></div>
     </div>
-    <p class="fine" style="margin-top:18px">Don't see your area? Ask — we often travel further for larger projects.</p>
+    <p class="more reveal">Nearby and not listed? Ask us. We often cover surrounding communities.</p>
   </div>
 </section>
 
-<!-- REVIEWS -->
-<section class="reviews">
+<!-- PAY + CONTACT -->
+<section id="contact">
   <div class="wrap">
-    <div class="center reveal">
-      <span class="eyebrow">Reviews</span>
-      <h2>What Central Florida homeowners say</h2>
-    </div>
-    <div class="grid grid-3" style="margin-top:40px">
-      <div class="review reveal"><div class="stars">★★★★★</div><p>"Placeholder review — replace with a real Google review. They showed up exactly when they said and the yard has never looked better."</p><b>Homeowner name</b><span>Lake Nona, FL</span></div>
-      <div class="review reveal"><div class="stars">★★★★★</div><p>"Placeholder review — fixed our sprinkler zones in one visit and sent the invoice with a pay link. So easy."</p><b>Homeowner name</b><span>Winter Park, FL</span></div>
-      <div class="review reveal"><div class="stars">★★★★★</div><p>"Placeholder review — the paver patio came out beautiful and on budget. Highly recommend ADG."</p><b>Homeowner name</b><span>Windermere, FL</span></div>
-    </div>
-  </div>
-</section>
-
-<!-- QUOTE + PAY -->
-<section id="quote" class="quote">
-  <div class="wrap">
-    <div class="reveal">
-      <span class="eyebrow">Get started</span>
-      <h2>Request your free quote</h2>
-      <p class="lead">Tell us a bit about your property and we'll reach out within one business day to schedule a visit.</p>
-      <div class="panel" style="margin-top:28px" id="pay">
-        <h3>Pay an invoice online</h3>
-        <p class="sub">Already a customer? Pay your invoice or deposit securely — no account needed.</p>
-        <div class="pay-options">
-          <a class="pay-option" data-pay="invoice" href="#" target="_blank" rel="noopener"><div><b>Pay my invoice</b><span>Enter your invoice number and pay by card or bank</span></div><span class="arrow">→</span></a>
-          <a class="pay-option" data-pay="deposit" href="#" target="_blank" rel="noopener"><div><b>Pay a project deposit</b><span>Reserve your project start date</span></div><span class="arrow">→</span></a>
-          <a class="pay-option" data-pay="recurring" href="#" target="_blank" rel="noopener"><div><b>Set up a lawn care plan</b><span>Monthly autopay for weekly or bi-weekly service</span></div><span class="arrow">→</span></a>
-        </div>
+    <div class="center reveal"><span class="eyebrow">Get started</span><h2>Request a quote or <b>pay online</b></h2></div>
+    <div class="two">
+      <div class="panel reveal" id="pay">
+        <h3>Pay online</h3>
+        <p class="sub">Already a customer? Pay securely, no account needed.</p>
+        <a class="pay-option" data-pay="invoice" href="#" target="_blank" rel="noopener"><div><b>Pay my invoice</b><span>Card or bank, in under a minute</span></div><span class="go">→</span></a>
+        <a class="pay-option" data-pay="recurring" href="#" target="_blank" rel="noopener"><div><b>Set up autopay</b><span>Weekly or bi-weekly lawn plan, billed automatically</span></div><span class="go">→</span></a>
+        <a class="pay-option" data-pay="deposit" href="#" target="_blank" rel="noopener"><div><b>Pay a project deposit</b><span>Reserve your start date for a landscaping job</span></div><span class="go">→</span></a>
         <div class="secure">🔒 Payments processed securely through Stripe. ADG never stores your card details.</div>
+        <div class="contact-list">
+          <a href="tel:+14077448136" data-phone-link><i>📞</i><span data-phone-text>(407) 744-8136</span></a>
+          <a href="mailto:adglandscaping.si@gmail.com" data-email-link><i>✉️</i><span data-email-text>adglandscaping.si@gmail.com</span></a>
+          <div><i>🕗</i>Mon–Sat · Se habla español</div>
+        </div>
       </div>
-    </div>
-    <div class="panel reveal">
-      <h3>Free quote request</h3>
-      <p class="sub">Takes about 60 seconds.</p>
-      <!-- GHL FORM EMBED: when the GoHighLevel form is ready, set GHL_FORM_EMBED_URL in the config below and this fallback form is replaced automatically. -->
-      <div id="ghl-form-slot"></div>
-      <form id="fallback-form" onsubmit="return handleFallback(event)">
-        <div class="row">
-          <div><label for="fn">First name</label><input id="fn" name="first_name" required></div>
-          <div><label for="ln">Last name</label><input id="ln" name="last_name" required></div>
-        </div>
-        <div class="row">
-          <div><label for="ph">Phone</label><input id="ph" name="phone" type="tel" required></div>
-          <div><label for="em">Email</label><input id="em" name="email" type="email" required></div>
-        </div>
-        <label for="addr">Property address / city</label><input id="addr" name="address" placeholder="e.g., Lake Nona, Orlando">
-        <div class="row">
-          <div><label for="svc">Service needed</label>
-            <select id="svc" name="service"><option>Lawn maintenance (recurring)</option><option>Landscape design &amp; install</option><option>Irrigation / sprinklers</option><option>Pavers / hardscape</option><option>Tree &amp; shrub care</option><option>Cleanup / mulch</option><option>Something else</option></select></div>
-          <div><label for="ptype">Property type</label><select id="ptype" name="property_type"><option>Residential</option><option>Commercial / HOA</option></select></div>
-        </div>
-        <label for="msg">Tell us about the project</label><textarea id="msg" name="message" placeholder="Yard size, what you'd like done, timeline..."></textarea>
-        <button class="btn btn-primary" type="submit" style="width:100%;justify-content:center">Send my quote request</button>
-        <p class="fine">By submitting, you agree to be contacted by ADG Landscaping by phone, text, or email about your request. Standard message rates may apply. Reply STOP to opt out.</p>
-      </form>
+      <div class="panel reveal">
+        <h3>Detailed quote request</h3>
+        <p class="sub">The more we know, the faster and more accurate your quote.</p>
+        <div id="ghl-form-slot"></div>
+        <form class="full" id="fallback-form" onsubmit="return sendLead(event,'full')">
+          <div class="row">
+            <div><label for="fn">First name</label><input id="fn" name="first_name" required></div>
+            <div><label for="ln">Last name</label><input id="ln" name="last_name" required></div>
+          </div>
+          <div class="row">
+            <div><label for="ph">Phone</label><input id="ph" name="phone" type="tel" required></div>
+            <div><label for="em">Email</label><input id="em" name="email" type="email" required></div>
+          </div>
+          <label for="addr">Property address</label><input id="addr" name="address" placeholder="Street, city">
+          <div class="row">
+            <div><label for="svc">Service needed</label>
+              <select id="svc" name="service"><option>Lawn maintenance (weekly / bi-weekly)</option><option>Landscaping</option><option>Cleanup / haul-away</option><option>Mulch &amp; rock</option><option>Tree &amp; hedge care</option><option>Commercial / HOA</option><option>Something else</option></select></div>
+            <div><label for="lot">Lot size</label>
+              <select id="lot" name="lot_size"><option>Under 1/4 acre</option><option>1/4 – 1/2 acre</option><option>1/2 – 1 acre</option><option>More than 1 acre</option><option>Not sure</option></select></div>
+          </div>
+          <label for="msg">Tell us about the project</label><textarea id="msg" name="message" placeholder="What you'd like done, how often, any timeline. You can text us photos after."></textarea>
+          <button class="btn btn-lime" type="submit">Send my quote request</button>
+          <p class="fine">By submitting, you agree to be contacted by ADG Landscaping by phone, text, or email about your request. Standard message rates may apply. Reply STOP to opt out.</p>
+        </form>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- FAQ -->
-<section>
-  <div class="wrap" style="max-width:820px">
-    <div class="center reveal"><span class="eyebrow">FAQ</span><h2>Common questions</h2></div>
-    <div style="margin-top:36px" class="reveal">
-      <details><summary>How fast can you start?</summary><p>Recurring lawn care usually starts within one week of approval. Larger installs and hardscape projects are scheduled based on materials and permitting — we'll give you a start window in your quote.</p></details>
-      <details><summary>Do you offer recurring lawn care plans?</summary><p>Yes. Weekly and bi-weekly plans are billed monthly with secure autopay, so you never have to think about it.</p></details>
-      <details><summary>How do I pay?</summary><p>Every invoice comes with a secure pay link — card, debit, or bank transfer. You can also pay anytime from the "Pay online" section of this site.</p></details>
-      <details><summary>Are you licensed and insured?</summary><p>Yes — placeholder. Add ADG's license number and insurance details here.</p></details>
-      <details><summary>Do you work with HOAs and commercial properties?</summary><p>Absolutely. We maintain HOA common areas, small commercial lots, and multi-unit properties throughout the Orlando area.</p></details>
+<section style="padding-top:0">
+  <div class="wrap" style="max-width:860px">
+    <div class="center reveal"><span class="eyebrow">FAQ</span><h2>Common <b>questions</b></h2></div>
+    <div class="reveal" style="margin-top:32px">
+      <details><summary>How much does lawn service cost?</summary><p>It depends on your lot size and how often you want service. Send us your address through the form and we'll give you a clear price, usually within 24 hours.</p></details>
+      <details><summary>Weekly or bi-weekly, which do I need?</summary><p>During Florida's growing season most lawns look best with weekly service. Bi-weekly works well for smaller lots or the cooler months. We'll recommend what fits your yard.</p></details>
+      <details><summary>How do I pay?</summary><p>Save your card once and your plan bills automatically, so you never have to send a payment. You can also pay any invoice from the Pay Online section.</p></details>
+      <details><summary>Do you work with apartments, HOAs and businesses?</summary><p>Yes. We maintain commercial properties and HOA common areas. Use the form and choose "Commercial / HOA" for a custom quote.</p></details>
+      <details><summary>¿Hablan español?</summary><p>¡Sí! Llámenos o escríbanos en español o inglés.</p></details>
     </div>
   </div>
 </section>
 
-<section style="padding-top:0">
+<section style="padding:0">
   <div class="wrap">
     <div class="band reveal">
-      <div><h2>Ready for a yard you don't have to think about?</h2><p>Free quotes across Orlando and Central Florida.</p></div>
-      <div style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn btn-white" href="tel:+14070000000" data-phone-link>Call (407) 000-0000</a><a class="btn btn-lime" href="#quote">Get a free quote</a></div>
+      <div><h2>Ready for a yard you don't have to think about?</h2><p>Free quotes in Orlando, Kissimmee, Davenport &amp; Haines City.</p></div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn btn-white" href="tel:+14077448136" data-phone-link>Call <span data-phone-text>(407) 744-8136</span></a><a class="btn btn-lime" href="#quote" style="box-shadow:none;background:var(--forest)">Free quote</a></div>
     </div>
   </div>
 </section>
@@ -460,79 +503,89 @@
   <div class="wrap">
     <div class="cols">
       <div>
-        <a href="#top" class="logo"><svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#a8e063"/><path d="M32 50c0-14 6-24 18-30-2 14-8 24-18 30zM32 50c0-14-6-24-18-30 2 14 8 24 18 30z" fill="#1f5c3a"/></svg><span>ADG Landscaping<small>Orlando · Central Florida</small></span></a>
-        <p style="margin-top:14px;max-width:34ch">Reliable lawn care, landscaping, irrigation, and hardscape for homes and businesses across Central Florida.</p>
+        <a href="#top" class="logo"><svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#8cc63f"/><path d="M32 50c0-14 6-24 18-30-2 14-8 24-18 30zM32 50c0-14-6-24-18-30 2 14 8 24 18 30z" fill="#24470f"/></svg><span>ADG Landscaping<small>Central Florida</small></span></a>
+        <p style="margin-top:16px;max-width:34ch;font-size:15px">Reliable lawn care and landscaping for homes and businesses across Central Florida.</p>
       </div>
-      <div><h4>Services</h4><ul><li><a href="#services">Lawn maintenance</a></li><li><a href="#services">Landscape design</a></li><li><a href="#services">Irrigation</a></li><li><a href="#services">Pavers &amp; hardscape</a></li><li><a href="#services">Tree &amp; shrub care</a></li></ul></div>
-      <div><h4>Company</h4><ul><li><a href="#why">Why ADG</a></li><li><a href="#gallery">Our work</a></li><li><a href="#areas">Service areas</a></li><li><a href="#quote">Free quote</a></li><li><a href="#pay">Pay online</a></li></ul></div>
-      <div><h4>Contact</h4><ul><li><a href="tel:+14070000000" data-phone-link>(407) 000-0000</a></li><li><a href="mailto:hello@adglandscaping.com" data-email-link>hello@adglandscaping.com</a></li><li>Orlando, FL</li><li>Mon–Sat 7am–6pm</li><li>Se habla español</li></ul></div>
+      <div><h4>Services</h4><ul><li><a href="#services">Lawn maintenance</a></li><li><a href="#services">Landscaping</a></li><li><a href="#services">Cleanups</a></li><li><a href="#services">Mulch &amp; rock</a></li><li><a href="#services">Commercial &amp; HOA</a></li></ul></div>
+      <div><h4>Areas</h4><ul><li>Orlando</li><li>Kissimmee</li><li>Davenport</li><li>Haines City</li></ul></div>
+      <div><h4>Contact</h4><ul><li><a href="tel:+14077448136" data-phone-link><span data-phone-text>(407) 744-8136</span></a></li><li><a href="mailto:adglandscaping.si@gmail.com" data-email-link><span data-email-text>adglandscaping.si@gmail.com</span></a></li><li>Mon–Sat</li><li>Se habla español</li><li><a href="#pay">Pay online</a></li></ul></div>
     </div>
-    <div class="copy"><span>© <span id="yr"></span> ADG Landscaping. All rights reserved.</span><span>Licensed &amp; Insured · Lic # 000000 (placeholder)</span></div>
+    <div class="copy"><span>© <span id="yr"></span> ADG Landscaping. All rights reserved.</span><span>Website by GLPX Studio</span></div>
   </div>
 </footer>
 
-<div class="sticky-call"><a class="btn btn-lime" href="#quote">Get a free quote</a></div>
+<div class="sticky-call"><a class="btn btn-white" style="box-shadow:var(--shadow)" href="tel:+14077448136" data-phone-link>Call</a><a class="btn btn-lime" href="#quote">Free quote</a></div>
 
 <script>
 /* =========================================================
    ADG SITE CONFIG — edit these values, nothing else needed.
    ========================================================= */
 const ADG = {
-  phoneDisplay: "(407) 000-0000",
-  phoneTel: "+14070000000",
-  email: "hello@adglandscaping.com",
+  phoneDisplay: "(407) 744-8136",
+  phoneTel: "+14077448136",
+  email: "adglandscaping.si@gmail.com",
   // GoHighLevel form embed URL, e.g. "https://api.leadconnectorhq.com/widget/form/XXXXXXXX"
   GHL_FORM_EMBED_URL: "",
   // GoHighLevel payment links (Payments > Payment Links) or Stripe payment links
   PAY_LINKS: {
-    invoice:   "",   // e.g. GHL "Text2Pay"/invoice portal link or a Stripe "pay invoice" link
-    deposit:   "",   // e.g. GHL payment link for a $250 project deposit
-    recurring: ""    // e.g. GHL subscription payment link for monthly lawn plan
+    invoice:   "",   // GHL invoice portal / Text2Pay link
+    deposit:   "",   // GHL payment link for a project deposit
+    recurring: ""    // GHL subscription link for weekly / bi-weekly autopay
   },
-  // Optional: where the fallback form posts if GHL form isn't set (Formspree, GHL webhook, etc.)
+  // Where both forms post (GHL inbound webhook → "Website Lead Instant Response" workflow)
   FALLBACK_FORM_ENDPOINT: "https://services.leadconnectorhq.com/hooks/f2LEZaqBQn15xe3ODXJR/webhook-trigger/gTrHxpPqnd4wLMJkGQsb"
 };
 
 document.getElementById('yr').textContent = new Date().getFullYear();
-document.querySelectorAll('[data-phone-link]').forEach(a=>{a.href='tel:'+ADG.phoneTel; if(a.textContent.includes('(407)')) a.textContent=a.textContent.replace(/\(\d{3}\)\s?\d{3}-\d{4}/,ADG.phoneDisplay);});
-document.querySelectorAll('[data-email-link]').forEach(a=>{a.href='mailto:'+ADG.email;a.textContent=ADG.email;});
+document.querySelectorAll('[data-phone-link]').forEach(a=>a.href='tel:'+ADG.phoneTel);
+document.querySelectorAll('[data-phone-text]').forEach(s=>s.textContent=ADG.phoneDisplay);
+document.querySelectorAll('[data-email-link]').forEach(a=>a.href='mailto:'+ADG.email);
+document.querySelectorAll('[data-email-text]').forEach(s=>s.textContent=ADG.email);
 
 // Payment buttons
 document.querySelectorAll('[data-pay]').forEach(a=>{
   const url = ADG.PAY_LINKS[a.dataset.pay];
   if(url){ a.href = url; }
-  else { a.addEventListener('click',e=>{e.preventDefault(); alert('Online payments are being set up. Please call '+ADG.phoneDisplay+' to pay by phone.');}); }
+  else { a.removeAttribute('target'); a.addEventListener('click',e=>{e.preventDefault(); alert('Online payments are being set up. Please call '+ADG.phoneDisplay+' to pay by phone.');}); }
 });
 
-// GHL form embed swap
+// GHL form embed swap (detailed form)
 if(ADG.GHL_FORM_EMBED_URL){
-  const slot = document.getElementById('ghl-form-slot');
-  slot.innerHTML = '<div class="embed"><iframe src="'+ADG.GHL_FORM_EMBED_URL+'" title="Quote request form" loading="lazy"></iframe></div>';
+  document.getElementById('ghl-form-slot').innerHTML = '<iframe src="'+ADG.GHL_FORM_EMBED_URL+'" title="Quote request form" loading="lazy" style="width:100%;min-height:720px;border:0"></iframe>';
   document.getElementById('fallback-form').style.display='none';
 }
 
-async function handleFallback(e){
+// Both forms → GHL webhook (or email draft if no endpoint)
+async function sendLead(e, kind){
   e.preventDefault();
   const form = e.target, btn = form.querySelector('button');
-  const data = Object.fromEntries(new FormData(form).entries()); data.source = 'Website';
+  const data = Object.fromEntries(new FormData(form).entries());
+  if(data.full_name){ const p = data.full_name.trim().split(/\s+/); data.first_name = p.shift(); data.last_name = p.join(' '); }
+  data.source = kind === 'quick' ? 'Website - quick quote' : 'Website - detailed quote';
+  const first = data.first_name || '';
   if(ADG.FALLBACK_FORM_ENDPOINT){
-    btn.disabled = true; btn.textContent = 'Sending…';
+    const label = btn.textContent; btn.disabled = true; btn.textContent = 'Sending…';
     try{
       await fetch(ADG.FALLBACK_FORM_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});
-      form.innerHTML = '<h3>Thanks, '+(data.first_name||'')+'! 🌿</h3><p class="sub">We got your request and will reach out within one business day.</p>';
-    }catch(err){ btn.disabled=false; btn.textContent='Send my quote request'; alert('Something went wrong. Please call '+ADG.phoneDisplay+'.'); }
+      form.outerHTML = '<div class="qdone"><h3>Thanks'+(first?', '+first:'')+'! 🌿</h3><p style="color:var(--body)">We got your request and will reach out within one business day.</p></div>';
+    }catch(err){ btn.disabled=false; btn.textContent=label; alert('Something went wrong. Please call '+ADG.phoneDisplay+'.'); }
   }else{
-    // No endpoint configured yet — fall back to email draft so no lead is lost.
     const body = encodeURIComponent(Object.entries(data).map(([k,v])=>k+': '+v).join('\n'));
-    window.location.href = 'mailto:'+ADG.email+'?subject=Quote request from '+encodeURIComponent(data.first_name+' '+data.last_name)+'&body='+body;
+    window.location.href = 'mailto:'+ADG.email+'?subject=Quote request&body='+body;
   }
   return false;
 }
 
+// Before/after slider
+const slides=[...document.querySelectorAll('.slide')], dots=document.getElementById('dots'); let cur=0;
+slides.forEach((_,i)=>{const b=document.createElement('button');b.setAttribute('aria-label','Project '+(i+1));b.onclick=()=>show(i);dots.appendChild(b);});
+function show(i){cur=(i+slides.length)%slides.length;slides.forEach((s,j)=>s.classList.toggle('on',j===cur));[...dots.children].forEach((d,j)=>d.classList.toggle('on',j===cur));}
+function go(d){show(cur+d)}
+show(0);
+
 // Scroll reveal
-const io = new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}}),{threshold:.12});
+const io = new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}}),{threshold:.1});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
-// Close mobile menu on link click
 document.querySelectorAll('#menu a').forEach(a=>a.addEventListener('click',()=>document.getElementById('menu').classList.remove('open')));
 </script>
 </body>
