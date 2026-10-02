@@ -154,6 +154,19 @@ nav a:hover:after{transform:scaleX(1)}
 @media (max-width:860px){.comm{grid-template-columns:1fr}.comm-visual{min-height:320px;order:-1}}
 @media (max-width:520px){.comm-list{grid-template-columns:1fr}}
 
+
+/* booking */
+.book-sec{background:var(--soft)}
+.book-tabs{display:inline-flex;gap:6px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:6px;margin:28px auto 0}
+.book-tabs button{border:0;background:transparent;font:inherit;font-weight:700;font-size:15px;padding:12px 20px;border-radius:10px;cursor:pointer;color:var(--body)}
+.book-tabs button.on{background:var(--forest);color:#fff}
+.book-card{background:#fff;border:1px solid var(--line);border-radius:22px;margin-top:22px;overflow:hidden}
+.book-card .meta{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding:18px 24px;border-bottom:1px solid var(--line)}
+.book-card .meta b{font-size:18px}
+.book-card .meta span{color:var(--mute);font-size:14px}
+.book-card iframe{width:100%;min-height:720px;border:0;display:block}
+.book-card .alt{font-size:14px;font-weight:700;color:var(--forest-2);text-decoration:underline}
+
 /* split: why + steps */
 .split{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
 .why-visual{position:relative;border-radius:28px;overflow:hidden;min-height:520px;background:linear-gradient(160deg,#3d6d1d,#1e3a0c);color:#fff;display:flex;align-items:flex-end;padding:30px}
@@ -290,7 +303,8 @@ footer .copy{border-top:1px solid rgba(255,255,255,.1);margin-top:44px;padding-t
       <a href="#services">Services</a>
       <a href="#work">Our Work</a>
       <a href="#commercial">Commercial</a>
-      <a href="#areas">Service Areas</a>
+      <a href="#areas">Areas</a>
+      <a href="#book">Book</a>
       <a href="#contact">Contact</a>
     </nav>
     <a class="hcall" href="tel:+14077448136" data-phone-link><i><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></i><span data-phone-text>(407) 744-8136</span></a>
@@ -314,7 +328,7 @@ footer .copy{border-top:1px solid rgba(255,255,255,.1);margin-top:44px;padding-t
     <div class="hero-copy">
       <h1>Central Florida's One-Stop <b>Lawn Care &amp; Landscaping</b> for Homes &amp; Businesses</h1>
       <p class="tag">Lawn care, cleanups and landscaping. Reliable crews, clear prices.</p>
-      <a class="btn btn-white" href="#quote">Get my free quote</a>
+      <div style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn btn-white" href="#quote">Get my free quote</a><a class="btn btn-lime" href="#book" data-book-link="home">Book a site visit</a></div>
       <div class="badges">
         <div class="badge"><i><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#78b52b" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg></i><div><b>Free quotes</b>No obligation</div></div>
         <div class="badge"><i><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#78b52b" stroke-width="2.2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></i><div><b>Homes &amp; businesses</b>Residential, commercial, HOA</div></div>
@@ -423,7 +437,7 @@ footer .copy{border-top:1px solid rgba(255,255,255,.1);margin-top:44px;padding-t
         <div><i><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8cc63f" stroke-width="2.4"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V4h8v3"/></svg></i><div><b>Offices &amp; retail</b><span>Clean, sharp curb appeal for your customers</span></div></div>
         <div><i><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8cc63f" stroke-width="2.4"><path d="M4 4h16v16H4zM4 9h16M9 4v16"/></svg></i><div><b>Contracts &amp; bids</b><span>Written proposals for annual and multi-year service</span></div></div>
       </div>
-      <a class="btn btn-lime" href="#contact" data-commercial>Request a commercial bid</a>
+      <div style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn btn-lime" href="#book" data-book-link="commercial">Book a consultation</a><a class="btn btn-outline" href="#contact" data-commercial>Request a written bid</a></div>
     </div>
     <div class="comm-visual reveal">
       <div class="photo-tag" style="top:24px;bottom:auto;left:24px;right:auto">📷 Commercial property photo goes here</div>
@@ -463,6 +477,24 @@ footer .copy{border-top:1px solid rgba(255,255,255,.1);margin-top:44px;padding-t
       <div class="area reveal"><i><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5z"/></svg></i><h3>Haines City</h3><p>Lawn care and landscaping in Polk County.</p></div>
     </div>
     <p class="more reveal">Nearby and not listed? Ask us. We often cover surrounding communities.</p>
+  </div>
+</section>
+
+
+<!-- BOOK ONLINE (GHL calendars) -->
+<section class="book-sec" id="book">
+  <div class="wrap center">
+    <span class="eyebrow reveal">Book online</span>
+    <h2 class="reveal">Pick a time that <b>works for you</b></h2>
+    <p class="reveal" style="color:var(--body);margin-top:12px">Choose a free on-site visit for your home, or a consultation for your property or business.</p>
+    <div class="book-tabs" role="tablist">
+      <button class="on" role="tab" data-book="home">Home / residential</button>
+      <button role="tab" data-book="commercial">Commercial / HOA</button>
+    </div>
+    <div class="book-card" style="text-align:left">
+      <div class="meta"><div><b id="book-title">Free site visit · 30 min</b><br><span id="book-sub">We walk your property and send a written quote within 24 hours.</span></div><a class="alt" id="book-open" href="#" target="_blank" rel="noopener">Open in a new tab ↗</a></div>
+      <iframe id="book-frame" title="Book a time with ADG Landscaping" loading="lazy"></iframe>
+    </div>
   </div>
 </section>
 
@@ -574,6 +606,11 @@ const ADG = {
     deposit:   ""    // GHL payment link for a project deposit
   },
   // Where both forms post (GHL inbound webhook → "Website Lead Instant Response" workflow)
+  // GHL booking calendars (Settings > Calendars)
+  BOOKING: {
+    home:       { url: "https://api.leadconnectorhq.com/widget/booking/GahmOIcBkYr3TCYFqPrr", title: "Free site visit · 30 min", sub: "We walk your property and send a written quote within 24 hours." },
+    commercial: { url: "https://api.leadconnectorhq.com/widget/booking/mFxWUsD9LI5l9yRflmoO", title: "Commercial consultation · 45 min", sub: "Apartments, HOAs and businesses. Weekdays 8am–5pm." }
+  },
   FALLBACK_FORM_ENDPOINT: "https://services.leadconnectorhq.com/hooks/f2LEZaqBQn15xe3ODXJR/webhook-trigger/gTrHxpPqnd4wLMJkGQsb"
 };
 
@@ -627,6 +664,20 @@ show(0);
 // Scroll reveal
 const io = new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}}),{threshold:.1});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+// Booking tabs (GHL calendars)
+function setBook(kind){
+  const b = ADG.BOOKING[kind]; if(!b) return;
+  const f = document.getElementById('book-frame');
+  if(f.dataset.kind !== kind){ f.src = b.url; f.dataset.kind = kind; f.id = 'book-frame'; }
+  document.getElementById('book-title').textContent = b.title;
+  document.getElementById('book-sub').textContent = b.sub;
+  document.getElementById('book-open').href = b.url;
+  document.querySelectorAll('[data-book]').forEach(t=>t.classList.toggle('on', t.dataset.book===kind));
+}
+document.querySelectorAll('[data-book]').forEach(t=>t.addEventListener('click',()=>setBook(t.dataset.book)));
+document.querySelectorAll('[data-book-link]').forEach(a=>a.addEventListener('click',()=>setBook(a.dataset.bookLink)));
+// load the calendar only when the section gets close, to keep the page fast
+new IntersectionObserver((es,o)=>{ if(es[0].isIntersecting){ if(!document.getElementById('book-frame').src) setBook('home'); o.disconnect(); } },{rootMargin:'600px'}).observe(document.getElementById('book'));
 document.querySelectorAll('[data-commercial]').forEach(a=>a.addEventListener('click',()=>{document.getElementById('svc').value='Commercial / HOA';document.getElementById('ptype').value='Apartment complex';}));
 document.querySelectorAll('#menu a').forEach(a=>a.addEventListener('click',()=>document.getElementById('menu').classList.remove('open')));
 </script>
