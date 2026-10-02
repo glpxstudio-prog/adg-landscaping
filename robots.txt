@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://glpxstudio-prog.github.io/adg-landscaping/sitemap.xml
